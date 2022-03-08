@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
+
+
+/* ================== GENERAL STYLES ================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+    --main_font: "Roboto", sans-serif;
+    --font_black: #1d1d1d;
+    --background_black: #262626;
+    --background_grey : #F2F2F2;
+    --white: #fff;
+    --font_grey: #626262;
+    --border_grey: #e0e0e0;
+    --border_light_grey: rgba(117, 117, 117, 0.2);
+    --background_lightghrey: #ddd;
+    --border_dark_grey: #757575;
+    --font-green: #327430;
+
+    --container-width-lg: 1124px;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+  }
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: var(--main_font);
+    background: var(--white);
+    color: var(--font_black);
+}
+
+.container {
+    max-width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 1.4rem
 }

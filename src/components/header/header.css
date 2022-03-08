@@ -1,0 +1,148 @@
+header {
+    width: 100%;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+    background: var(--white);
+}
+
+.header__container {
+    height: 72px;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background: url('../../assets/header/logoLg.svg') no-repeat center;
+    height: 24px;
+    width: 121px;
+}
+
+.delivery-terms__container {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    width: 5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    border: 1px solid var(--border_grey);
+}
+
+.delivery-terms__time {
+    width: 4rem;
+    font-size: 1rem;
+    font-weight: 400;
+    background: none;
+    color: var(--font_black);
+}
+
+.delivery-terms__span {
+    font-size: 1rem;
+    margin: 0 9px ;
+    color: var(--font_grey);
+    font-weight: 300;
+}
+
+.delivery-terms__label {
+    position: relative;
+}
+
+.delivery-terms__label::before {
+    content: url(../../assets/header/location.svg);
+    position: absolute;
+    top: 10px;
+    left: 12px;
+}
+
+.delivery-terms__input {
+    font-size: 1rem;
+    width: 18.25;
+    height: 2.5rem;
+    padding-left: 36px;
+    border: 1px solid var(--border_grey);
+    border-radius: 2px;
+}
+
+.delivery-terms__input::placeholder {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .authorization-options__container {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+  }
+
+  .authorization-options {
+      font-size: 0.85rem;
+      font-weight: 500;
+      background: none;
+      color: var(--font_black);
+  }
+
+  .authorization-options--register {
+      font-size: 0.85rem;
+      color: var(--white);
+      background: var(--background_black);
+      font-weight: 500;
+      margin-right: 0.8rem;
+  }
+
+  /* ================== MEDIA QUERIES (MEDIUM DEVICES) ================= */
+
+@media screen and (max-width: 1024px) {
+
+    body {
+        background: var(--background_grey);
+    }
+
+    .header__container {
+        padding: 0 1vw;
+    }
+
+    .logo {
+        background: url('../../assets/header/logosm.svg') no-repeat center;
+        width: 107px;
+        height: 11px;
+    }
+
+    .delivery-terms__time,
+    .delivery-terms__span,
+    .delivery-terms__input,
+    .delivery-terms__input::placeholder {
+        font-size: 0.86rem;
+    }
+
+    .delivery-terms__time {
+        width: 3.5rem;
+    }
+
+    .delivery-terms__input {
+        width: 13.4rem;
+    }
+}
+
+/* ================== MEDIA QUERIES (SMALL DEVICES) ================= */
+
+@media screen and (max-width: 768px) {
+    .authorization-options__container {
+        gap: 1rem;
+    }
+
+    .btn {
+        width: 4.5rem;
+    }
+
+    .authorization-options,
+    .authorization-options--register {
+        font-size: 0.7rem;
+    }
+
+    .delivery-terms__container {
+        display: none;
+    }
+}
+
