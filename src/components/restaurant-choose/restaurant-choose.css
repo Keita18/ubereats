@@ -1,0 +1,32 @@
+.restaurant-choose__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.search__label {
+    margin-top: 9px;
+}
+
+.search__input {
+    width: 100%;
+    height: 79px;
+    border: none;
+    border-bottom: 1px solid var(--background_lightghrey);
+    padding: 30px 0 0 30px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--font_grey);
+}
+
+.search__label::before {
+    content: url(../../assets/search/searchlg.svg);
+    position: absolute;
+    top: 122px;
+}
+
+.restaurant-choose {
+    display: flex;
+    justify-content: space-between;
+}
