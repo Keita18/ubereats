@@ -1,0 +1,49 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    color: var(--font_black);
+    text-decoration: none;
+    gap: 2px;
+}
+
+.card__img {
+    width: 366px;
+    height: 256px;
+}
+
+.card__name {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 16px;
+}
+
+.card__cuisine {
+    line-height: 1.34rem;
+    color: var(--font_grey);
+}
+
+.card__time {
+    line-height: 1.34rem;
+    color: var(--font_black);
+}
+
+/* ================== MEDIA QUERIES (MRDIUM DEVICES) ================= */
+
+@media screen and (max-width: 1124px) {
+    .card__img {
+        width: 49vw;
+        height: 33.333vw;
+    }
+}
+
+/* ================== MEDIA QUERIES (SMALL DEVICES) ================= */
+
+@media screen and (max-width: 768px) {
+    .restaurant-choose {
+        justify-content: center;
+    }
+    .card__img {
+        width: 95vw;
+        height: max-content;
+    }
+}

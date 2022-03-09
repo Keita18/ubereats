@@ -26,7 +26,20 @@
     top: 122px;
 }
 
+.restaurant-choose__city {
+    font-size: 1.4rem;
+    line-height: 2.rem;
+    color: var(--font_black);
+    margin-top: 56px;
+}
+
 .restaurant-choose {
     display: flex;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    gap: 13px;
+    margin: 16px 0;
+}
+
+.restaurant-choose li {
+    margin: 16px 0;
 }

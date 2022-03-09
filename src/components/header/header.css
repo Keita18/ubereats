@@ -93,7 +93,7 @@ header {
 
   /* ================== MEDIA QUERIES (MEDIUM DEVICES) ================= */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1124px) {
 
     body {
         background: var(--background_grey);
