@@ -1,5 +1,5 @@
 import React from 'react'
-import './restaurant-choose.css'
+import './restaurants.css'
 import Restaurant from './RestaurantCard'
 import Macdo from '../../assets/restaurants/MCdonalds.png'
 import DimSum from '../../assets/restaurants/Dimsum.png'

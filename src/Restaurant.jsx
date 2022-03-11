@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './components/header/Header'
-import RestaurantHeader from './components/restaurant-content/RestaurantHeader'
+import RestaurantHeader from './components/restaurant-choosed/RestaurantChoosed'
 import Footer from './components/footer/Footer'
 
 const Resto = () => {
@@ -8,6 +8,7 @@ const Resto = () => {
     <>
     <Header/>
     <RestaurantHeader/>
+    <Footer/>
     </>
   )
 }

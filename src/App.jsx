@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from './components/header/Header'
-import RestaurantChoose from './components/restaurant-choose/RestaurantChoose'
+import Restaurants from './components/restaurants/Restaurants'
 import Footer from './components/footer/Footer'
 
 const App = () => {
   return (
     <>      
     <Header />
-    <RestaurantChoose />
+    <Restaurants />
     <Footer />
     </>
   )
