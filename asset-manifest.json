@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/ubereats/static/css/main.07637e58.css",
+    "main.js": "/ubereats/static/js/main.2c2ba5b5.js",
+    "static/media/resto-preview-lg.png": "/ubereats/static/media/resto-preview-lg.ef017f22ae1032fef271.png",
+    "static/media/resto-preview-md.png": "/ubereats/static/media/resto-preview-md.f18b74c28f845276a67d.png",
+    "static/media/MCdonalds.png": "/ubereats/static/media/MCdonalds.a8f3da0b656cbd51d24c.png",
+    "static/media/HaNha.png": "/ubereats/static/media/HaNha.cb06c212018eb4946996.png",
+    "static/media/Zy.png": "/ubereats/static/media/Zy.4731ad79d6ea7f372229.png",
+    "static/media/Toshka.png": "/ubereats/static/media/Toshka.b8a9fd7591411ab482cf.png",
+    "static/media/Dimsum.png": "/ubereats/static/media/Dimsum.03a913db4f353cbc120e.png",
+    "static/media/DvikOk.png": "/ubereats/static/media/DvikOk.d1a3681a50383ee63ce4.png",
+    "static/media/Pizzelove.png": "/ubereats/static/media/Pizzelove.ef2e5f0e725d9dd55737.png",
+    "static/media/Cinnabon.png": "/ubereats/static/media/Cinnabon.a6c684abdbf87ad9de48.png",
+    "static/media/resto-preview.png": "/ubereats/static/media/resto-preview.89244a335a8b97d99173.png",
+    "static/media/Barbq.png": "/ubereats/static/media/Barbq.933a9de63e5231b3807c.png",
+    "static/media/dish-5.png": "/ubereats/static/media/dish-5.794d21c4c50adebf1c4b.png",
+    "static/media/dish-3.png": "/ubereats/static/media/dish-3.61611357f8772cf39d6d.png",
+    "static/media/dish-2.png": "/ubereats/static/media/dish-2.4efe013970e50dff65de.png",
+    "static/media/dish-4.png": "/ubereats/static/media/dish-4.fdf355b36df04e6b5e8f.png",
+    "static/media/dish-6.png": "/ubereats/static/media/dish-6.595e3d0081a2f3aa3c8f.png",
+    "static/media/dish-1.png": "/ubereats/static/media/dish-1.6fce510eaa5be5cb431e.png",
+    "static/media/play-store.svg": "/ubereats/static/media/play-store.3b0c6eb16c992d96cd6f.svg",
+    "static/media/app-store.svg": "/ubereats/static/media/app-store.0e4c58e1ff7e07841bfd.svg",
+    "static/media/logoLg.svg": "/ubereats/static/media/logoLg.1189b8729ab04ff8ef97.svg",
+    "static/media/logosm.svg": "/ubereats/static/media/logosm.4b7a8a02d2e44d2ebd47.svg",
+    "static/media/footer-logo.svg": "/ubereats/static/media/footer-logo.abf0d3544d1ac96e329f.svg",
+    "static/media/basket.svg": "/ubereats/static/media/basket.a43e57a09f8dc08b70c2a60c890b1aa6.svg",
+    "static/media/searchlg.svg": "/ubereats/static/media/searchlg.1558f663ddce2d81dbfd.svg",
+    "static/media/location.svg": "/ubereats/static/media/location.b00ee09e3d888b3e983f.svg",
+    "index.html": "/ubereats/index.html",
+    "main.07637e58.css.map": "/ubereats/static/css/main.07637e58.css.map",
+    "main.2c2ba5b5.js.map": "/ubereats/static/js/main.2c2ba5b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07637e58.css",
+    "static/js/main.2c2ba5b5.js"
+  ]
+}
