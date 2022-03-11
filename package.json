@@ -2,6 +2,7 @@
   "name": "ubereats",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
   "homepage": "https://keita18.github.io/ubereats",
   "dependencies": {
     "-": "^0.0.1",
