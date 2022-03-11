@@ -1,12 +1,14 @@
 import React from 'react'
 import './header.css'
 import Basket from '../../assets/header/basket.svg'
+import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <a href="" className="logo"></a>
+        <Link to="/" className='logo'>
+        </Link>
         <div className="delivery-terms__container">
           <button className="btn delivery-terms__time">ASAP</button>
           <span className="delivery-terms__span">to</span>
