@@ -1,0 +1,128 @@
+.resto__header {
+
+}
+
+.resto-preview__bg {
+    background: url(../../assets/restaurant-contents/resto-preview-lg.png) no-repeat center;
+    background-size: cover;
+    height: 364px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resto-preview__wrapper {
+    width: 1124px;
+}
+
+.resto-preview {
+    width: 388px;
+    height: 204px;
+    background: var(--white);
+    margin: 24px 0 0 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.resto-preview__title {
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+}
+
+.resto-preview__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resto-preview__price {
+    color: var(--font_black);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1rem;
+    padding: 8px 0;
+}
+
+.resto-preview__time {
+    background: var(--background_black);
+    border-radius: 16px;
+    color: var(--white);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1rem;
+    width: 98px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resto-menu__nav {
+    border-bottom: 1px solid var(--border_light_grey);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resto-menu {
+    width: 1124px;
+    display: flex;
+    padding: 81px 81px 81px 55px;
+    gap: 40px;
+}
+
+.resto-menu__em {
+    cursor: pointer;
+}
+
+/* ================== MEDIA QUERIES (MEDIUM DEVICES) ================= */
+
+@media screen and (max-width: 1124px) {
+    .resto-preview__bg {
+        background-image: url(../../assets/restaurant-contents/resto-preview-md.png);
+    }
+
+    .resto-preview {
+        margin-left: 1vw;
+    }
+
+    .resto-menu {
+        padding-left: 1vw;
+    }
+}
+
+/* ================== MEDIA QUERIES (SMALL DEVICES) ================= */
+
+@media screen and (max-width: 768px) {
+    .resto-preview__bg {
+        background-image: url(../../assets/restaurant-contents/resto-preview.png);
+        height: 255px;
+    }
+
+    .resto-menu__nav {
+        display: none;
+    }
+    .resto-preview__wrapper {
+        padding-top: 131px;
+    }
+
+    .resto-preview {
+        border: 1px solid var(--border_light_grey);
+        width: 308px;
+        height: 180px;
+        margin: auto;
+    }
+
+    .resto-preview__title {
+        align-self: center;
+        font-size: 1.5rem;
+    }
+
+    .resto-preview__footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}

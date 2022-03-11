@@ -1,6 +1,6 @@
 import React from 'react'
 import './restaurant-choose.css'
-import Restaurant from './Restaurant'
+import Restaurant from './RestaurantCard'
 import Macdo from '../../assets/restaurants/MCdonalds.png'
 import DimSum from '../../assets/restaurants/Dimsum.png'
 import DvizOk from '../../assets/restaurants/DvikOk.png'
